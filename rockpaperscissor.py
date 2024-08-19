@@ -44,3 +44,5 @@ def rps():
     elif player == scissor and computer == "rock":
         print("player lost")
 
+if __name__ == '__main__':
+    rps()
