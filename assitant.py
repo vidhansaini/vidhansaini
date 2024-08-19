@@ -164,9 +164,6 @@ def Take_query():
 		elif "tell me your name" in query:
 			speak("I am Jarvis. Your desktop Assistant")
 
-		elif "yatin" in query:
-			speak("Chutiya yatin")
-
 if __name__ == '__main__':
 	
 	# main method for executing
