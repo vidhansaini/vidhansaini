@@ -120,18 +120,18 @@ def Take_query():
 		# query matches and we get the perfect 
 		# output
 		query = takeCommand().lower()
-		if "open geeksforgeeks" in query:
-			speak("Opening GeeksforGeeks ")
+		if "open google" in query:
+			speak("Opening Google ")
 			
 			# in the open method we just to give the link
 			# of the website and it automatically open 
 			# it in your default browser
-			webbrowser.open("www.geeksforgeeks.com")
+			webbrowser.open("www.google.com")
 			continue
 		
-		elif "open google" in query:
-			speak("Opening Google ")
-			webbrowser.open("www.google.com")
+		elif "open youtube" in query:
+			speak("Opening youtube ")
+			webbrowser.open("www.youtube.com")
 			continue
 			
 		elif "which day it is" in query:
@@ -144,7 +144,7 @@ def Take_query():
 		
 		# this will exit and terminate the program
 		elif "bye" in query:
-			speak("Bye. Check Out GFG for more exciting things")
+			speak("Bye sir")
 			exit()
 		
 		elif "from wikipedia" in query:
@@ -162,7 +162,7 @@ def Take_query():
 			speak(result)
 		
 		elif "tell me your name" in query:
-			speak("I am Jarvis. Your desktop Assistant")
+			speak("I am dexter. Your desktop Assistant")
 
 if __name__ == '__main__':
 	
